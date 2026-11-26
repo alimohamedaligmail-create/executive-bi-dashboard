@@ -1,9 +1,6 @@
 # Executive BI Dashboard
-
 Interactive Business Intelligence dashboard built on the retail sales dataset (`9,800` records from `2015-01-03` to `2018-12-30`, totaling `$2,261,536.78` in sales) to explore performance across regions, categories, and shipping modes.
 
-## Live Demo
-- **Live URL:** `https://your-username-executive-bi-dashboard.streamlit.app/`
 
 ## Key Features
 - **Dataset & Relative Loading:** Uses `data/retail_sales.csv` loaded via relative path (`Path(__file__).resolve().parent / "data" / "retail_sales.csv"`).
@@ -16,13 +13,12 @@ Interactive Business Intelligence dashboard built on the retail sales dataset (`
 - **Automated Insight Callout & Filtered CSV Export:** Summarizes top-performing segments dynamically and exports the filtered rows to CSV.
 
 ## Project Structure
-```text
 executive-bi-dashboard/
 ├── .streamlit/
 │   └── config.toml
 ├── assets/
-│   ├── desktop-dashboard.png
-│   └── mobile-dashboard.png
+│   ├── ![Desktop Dashboard](assets/desktop-dashboard.png)
+│   └── ![Mobile Dashboard](assets/mobile-dashboard.png)
 ├── data/
 │   └── retail_sales.csv
 ├── .gitignore
